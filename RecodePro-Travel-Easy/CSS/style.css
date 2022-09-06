@@ -1,0 +1,635 @@
+/* Global ===========*/
+:root{
+    --blue: #102442;
+}
+
+/* Fonte Josefin Sans === font-family: 'Josefin Sans', sans-serif; ==== */
+/* Fonte Berkshire Swash === font-family: 'Berkshire Swash', cursive; === */
+
+.center{text-align: center;}
+
+main section #easy{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 45px;
+}
+main section #logo{
+    width: 150px;
+    height: auto;
+}
+main section form textarea{
+    width: 450px;
+    height: 150px;
+    border-radius: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+main section .descricao{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+}
+.box{
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+nav{
+    background-color: transparent;
+    height: 90px;
+    border-bottom: solid 2px black;
+}
+header nav a{
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+header nav a:hover{
+    color: black;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+}
+footer{
+    background-color: gray; 
+    width: 100%; 
+    padding-top: 10px; 
+    font-family: 'Josefin Sans', sans-serif; 
+    text-align: center; 
+    font-weight: 500;
+}
+.promo{
+    width: 100%; 
+    min-height: 400px;
+    background-color: rgba(241, 245, 9, 0.767);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+footer h3 {
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 28px;
+}
+footer h4 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+}
+footer p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+footer aside:hover{
+    zoom: 200%;
+}
+main section #divisao{
+    background-color: white;
+    border: solid 1px black;
+    border-radius: 10px; 
+    width:350px; 
+    height:auto;
+}
+main section #immg{
+    width:350px; 
+    height:200px;
+    border-radius: 10px;
+}
+.title{
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 32px; 
+    color: #102442; 
+    font-weight: 600;
+}
+main section #price{
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 24px; color: #102442; 
+    font-weight: 600;
+}
+header nav div #login{
+    padding: 3%;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 24px;
+    font-weight: 500;
+    background-color: var(--blue);
+    border-radius: 15px;
+    border: solid 2px black;
+    color: white;
+}
+header nav div #login:hover{
+    color: var(--blue);
+    background-color: white;
+}
+header nav div #newCount{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+main article div img{
+    border-radius: 10%; 
+    width: 100%; 
+    height: auto;
+    box-shadow: 5px 10px 18px black;
+    border: solid 4px black;
+}
+main section div #Foto{
+    border-radius: 10%; 
+    width: 100%; 
+    height: auto;
+    box-shadow: 5px 10px 18px black;
+    border: solid 4px black;
+}
+main #mainBox{
+    border-top: solid 2px black;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 5px 10px 18px gray;
+}
+footer div .cityFooter{
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive; 
+    font-size: 28px;
+}
+footer div span{
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 18px;
+    font-weight: 500;
+}
+body header nav div a button{
+    transition: all 0.5s; 
+    cursor: pointer;
+    width: 130px;
+    height: 40px;
+}
+body header nav div a button:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    -webkit-transform: scale(1.05); transform: scale(1.04);
+}
+body{
+    background: url(../imagens/maldivas.jpg);
+    background-size: cover;
+}
+main section div .infos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 25px;
+}
+main section a button{
+    width: 250px;
+    height: 85px;
+    background-color: var(--blue);
+    color: whitesmoke;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 32px;
+    border-radius: 35px;
+    box-shadow: inset 2px 2px 8px  rgba(0,0,0,.5);
+    transition: all 0.5s; cursor: pointer;
+}
+main section a button:hover{
+    background-color: whitesmoke;
+    color: var(--blue);
+    font-weight: bolder;
+    box-shadow: inset 4px 7px 8px rgba(64, 64, 64, 0.4);
+    -webkit-transform: scale(1.1); transform: scale(1.1);
+}
+/* Pagina de contato */
+main section form button{
+    border-radius: 15px; 
+    background-color: #102442; 
+    color:white; 
+    border: 15px; 
+    width: 200px; 
+    height: 50px; 
+    box-shadow: inset 0px 3px 6px rgba(0,0,0,0.25); 
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 22px;
+}
+main section form button:hover{
+    background-color: white;
+    color: #102442;
+    box-shadow: inset 0px 3px 6px rgba(0,0,0,0.25);
+    font-weight: bolder;
+}
+main section form input {
+    border-radius: 15px; 
+    box-shadow: inset 0px 3px 6px rgba(0,0,0,0.4); 
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 18px;
+    width: 70%;
+}
+main section form input:hover {
+    box-shadow: inset 3px 6px 8px rgba(0,0,0,0.4);
+    font-weight: bold;
+}
+main section form label{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+/* Pagina de contato */
+
+/* Pagina Login */
+body .login-container {
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body main #login{
+    padding: 2%;
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border-radius: 20px;
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body main form .inputs-container{
+    margin-top: 10%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body main form .inputs-container input{
+    width: 100%;
+    height: 45px;
+    padding: 8px 15px;
+    border: 0;
+    outline: 0;
+    border-radius: 20px;
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 18px;
+
+    box-shadow: 0px 3px 3px rgba(0,0,0,0.25);
+}
+body main form .inputs-container input:focus{
+    box-shadow: inset 1px 4px 7px rgba(0,0,0,.5);
+}
+body main form .password-container{
+    margin-top: 5px;
+    width: 100%;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body main form .password-container i{
+    margin-top: 15px;
+    position: absolute;
+    right: 20px;
+} 
+body main form .password-container #eye{
+    display: none;
+}
+body main form .password-infos{
+    width: 90%;
+    margin-top: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+body main form .password-infos a {
+    transition: 0.2s ease-in-out;
+}
+body main form .password-infos a:hover{
+    
+}
+main form #btn-login{
+    width: 70%;
+    height: 45px;
+    margin: 10px;
+    background-color: var(--blue);
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    outline: 0;
+}
+main form #btn-login:hover{
+    background-color: whitesmoke;
+    color: var(--blue);
+    font-weight: bolder;
+    box-shadow: inset 1px 4px 7px rgba(0,0,0,0.4);
+}
+main form .links-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10%;  
+}
+main form .links-container span{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    color: black;;
+    font-weight: bold;
+}
+main form .links-container aside{
+    margin-top: 15px;
+    width: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+main form .links-container aside i {
+    font-size: 1.6em;
+    background-color: white;
+    padding: 8px;
+    height: 40px;
+    width: 40px;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    color: white;
+    outline: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main form .links-container aside .google{
+    color: #e34133;
+}
+main form .links-container aside .google:hover{
+    background-color: #e34133;
+    color: white;
+}
+main form .links-container aside .linkedin{
+    color: #0a66c2;
+}
+main form .links-container aside .linkedin:hover{
+    background-color: #0a66c2;
+    color: white;
+}
+main form .links-container aside .facebook{
+    color: #14a0f9;
+}
+main form .links-container aside .facebook:hover{
+    background-color: #14a0f9;
+    color: white;
+}
+body main form .login-Travel{
+    font-family: 'Berkshire Swash', cursive; 
+    font-size: 68px;
+}
+main form .footer-login{
+    background-color: transparent;
+}
+main form .footer-login span{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+
+/* ===== Botão index ======== */
+main section article{
+    margin: 30px;
+}
+main section article div #pacotes{
+    background: url(../imagens/mundi.jpg);
+    width:90%; 
+    height: 125px; 
+    border-radius: 35px; 
+    font-family: 'Berkshire Swash', cursive; 
+    font-size: 36px;
+    background-position: center; 
+    background-size: cover; 
+    color: black;
+    transition: all 0.5s; 
+    cursor: pointer;
+}
+main section article div #internacional{
+    background: url(../imagens/Paris\ Pexels.jpg);
+    width:90%; 
+    height: 125px; 
+    border-radius: 35px; 
+    font-family: 'Berkshire Swash', cursive; 
+    font-size: 36px;
+    background-position: center; 
+    background-size: cover; 
+    color: black;
+    transition: all 0.5s; 
+    cursor: pointer;
+}
+main section article div #nacional{
+    background: url(../imagens/rio.jpg);
+    width:90%; 
+    height: 125px; 
+    border-radius: 35px; 
+    font-family: 'Berkshire Swash', cursive; 
+    font-size: 36px;
+    background-position: center; 
+    background-size: cover; 
+    color: black;
+    transition: all 0.5s; 
+    cursor: pointer;
+}
+main section article div button:hover{
+    -webkit-transform: scale(1.1); 
+    transform: scale(1.1);
+}
+main section h3{
+    font-family: 'Berkshire Swash', cursive; 
+    font-size: 72px;
+    text-align: center; 
+    color: black;
+}
+main section p{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+body section #links-viagens button{
+    border-radius: 15px;
+    background-color: var(--blue);
+    color: white;
+    width: 250px;
+    height: 45px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    margin: 15px;
+}
+body section #links-viagens button:hover{
+    background-color: whitesmoke;
+    color: var(--blue);
+    font-weight: bold;
+    box-shadow: inset 0px 3px 7px rgba(0,0,0,.5);
+    cursor: pointer;
+}
+body .container-destino{
+    margin: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+main #index-container{
+    text-align: center;
+}
+main #index-frase {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 48px;
+    text-align: center;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+}
+/* ======= Destinos ====== */
+main h1{
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 40px; 
+    text-align: center;
+    padding: 20px;
+}
+main section h2{
+    text-align: center;
+    font-family: 'Berkshire Swash', cursive; 
+    font-size: 28px;
+    background-color: rgba(64, 64, 64, 0.4);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    padding: 5px;
+    border-radius: 15px;
+}
+main section #block-infos{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 12px;
+    color: black;
+    font-weight: bold;
+    padding: 20px;
+}
+main section #comprar{
+    width: 150px;
+    height: 45px;
+    background-color: var(--blue);
+    color: white;
+    margin-left: 15px;
+    border-radius: 15px;
+    font-size: 22px;
+    font-family: 'Josefin Sans', sans-serif;
+    cursor: pointer;
+    margin-top: 5px;
+    transition: all 0.5s;
+}
+main section #comprar:hover{
+    background-color: white;
+    color: var(--blue);
+    font-weight: bold;
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    -webkit-transform: scale(1.05); transform: scale(1.04);
+    box-shadow: inset 0px 3px 7px rgba(0,0,0,.5);
+}
+main form #cadastro{
+    margin: 10px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+}
+main form #cadastro input{
+    width: 40%;
+    height: 45px;
+    border-radius: 15px;
+    outline: 0;
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 18px;
+    font-weight: 400;
+}
+main form #cadastro input:focus{
+    font-weight: bold;
+    box-shadow: inset 0px 3px 6px rgba(0,0,0,0.4); 
+}
+main form #cadastro label{
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 22px;
+    font-weight: 600;
+    
+}
+main form h1{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 52px;
+}
+main form section button{
+    border-radius: 15px; 
+    background-color: #102442; 
+    color:white; 
+    border: 15px; 
+    width: 200px; 
+    height: 50px; 
+    box-shadow: inset 0px 3px 6px rgba(0,0,0,0.25); 
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 22px;
+}
+main form section button:hover{
+    background-color: white;
+    color: var(--blue);
+    font-weight: 600;
+}
+
+/* ====== Efeitos ======== */
+
+/*  ===== Efeito pagina Inicial====== */
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+    }
+    @-moz-keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1; }
+    }
+    @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+    @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+    }
+
+.fadeIn {
+    -webkit-animation: fadeIn 3s ease-in-out;
+    -moz-animation: fadeIn 3s ease-in-out;
+    -o-animation: fadeIn 3s ease-in-out;
+    animation: fadeIn 3s ease-in-out;
+}
+
+main section #desconto {
+    text-decoration: line-through;
+    font: 22px;
+    font-family: 'Josefin Sans', sans-serif;
+}
